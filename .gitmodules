@@ -16,3 +16,7 @@
 [submodule "Seti_UI"]
 	path = Seti_UI
 	url = https://github.com/ctf0/Seti_ST3.git
+[submodule "sublime-csscomb"]
+	path = CSScomb
+	url = git@github.com:zchee/sublime-csscomb.git
+	branch = setting-node-path
