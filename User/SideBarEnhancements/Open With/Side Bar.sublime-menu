@@ -1,0 +1,67 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			// iTerm
+      {
+        "caption": "iTerm",
+        "id": "side-bar-files-open-with-iterm",
+
+        "command": "side_bar_files_open_with",
+        "args": {
+                  "paths": [],
+                  "application": "/opt/homebrew-cask/Caskroom/iterm2-nightly/latest/iTerm.app",
+                  "extensions":"" //any file with extension
+            },
+        "open_automatically" : false // will close the view/tab and launch the application
+      },
+      //application 1
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg"  //any file with these extensions
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//separator
+			{"caption":"-"},
+
+			// //application 2
+			// {
+			// 	"caption": "SeaMonkey",
+			// 	"id": "side-bar-files-open-with-seamonkey",
+
+			// 	"command": "side_bar_files_open_with",
+			// 	"args": {
+			// 						"paths": [],
+			// 						"application": "C:\\Archivos de programa\\SeaMonkey\\seamonkey.exe", // WINNT
+			// 						"extensions":"" //open all even folders
+			// 					},
+			// 	"open_automatically" : false // will close the view/tab and launch the application
+			// },
+			
+      // //application n
+			{
+				"caption": "Chromium",
+				"id": "side-bar-files-open-with-chromium",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "/Applications/Chromium.app",
+									"extensions":".*" //any file with extension
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"}
+		]
+	}
+]

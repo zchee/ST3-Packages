@@ -1,0 +1,18 @@
+[submodule "HTML-CSS-JS Prettify"]
+	path = HTML-CSS-JS Prettify
+	url = https://github.com/victorporof/Sublime-HTMLPrettify.git
+[submodule "Gutter Color"]
+	path = Gutter Color
+	url = https://github.com/ggordan/GutterColor.git
+[submodule "SublimeLinter"]
+	path = SublimeLinter
+	url = https://github.com/SublimeLinter/SublimeLinter3.git
+[submodule "Syntax Highlighting for Sass"]
+	path = Syntax Highlighting for Sass
+	url = https://github.com/P233/Syntax-highlighting-for-Sass.git
+[submodule "SublimeCodeIntel"]
+	path = SublimeCodeIntel
+	url = https://github.com/SublimeCodeIntel/SublimeCodeIntel.git
+[submodule "Seti_UI"]
+	path = Seti_UI
+	url = https://github.com/ctf0/Seti_ST3.git

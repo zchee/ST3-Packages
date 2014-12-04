@@ -1,0 +1,35 @@
+{
+	"Seti_SB_med": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
+	"color_scheme": "Packages/User/Seti_orig (SL).tmTheme",
+	"detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "Kibitaki Light",
+	"font_size": 13,
+	"gpu_window_buffer": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"overlay_scroll_bars": "enable",
+	"remember_full_screen": true,
+	"scroll_speed": 100,
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"word_wrap": false
+}

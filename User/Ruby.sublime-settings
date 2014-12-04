@@ -1,0 +1,17 @@
+{
+	"extensions":
+	[
+		"rabl",
+		"jbuilder",
+		"rb",
+		"podspec",
+		"rake",
+		"simplecov",
+		"thor",
+		"ruby.rails",
+		"Vagrantfile",
+		"Cheffile",
+		"Guardfile",
+		"lock"
+	]
+}

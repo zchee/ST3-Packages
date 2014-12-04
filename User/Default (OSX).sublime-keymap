@@ -1,0 +1,10 @@
+[
+  { "keys": ["ctrl+i"], "command": "reindent" , "args": { "single_line": false } },
+  { "keys": ["super+'"], "command": "expand_region" },
+  { "keys": ["alt+'"], "args": {"action": "remove_tag"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.remove_tag"}] },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+u"], "command": "gulp", "args": { "task_name": "default" } },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+k"], "command": "gulp_kill" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+i"], "command": "gulp", "args": { "task_name": "sass" } },
+  { "keys": ["ctrl+shift+d"], "command": "dash_doc",
+                            "args": { "flip_syntax_sensitive": true } }
+]

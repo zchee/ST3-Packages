@@ -1,0 +1,4 @@
+{
+  "cmd": ["/Users/fainder/.nodebrew/current/bin/node", "$file"],
+  "selector": "source.js"
+}

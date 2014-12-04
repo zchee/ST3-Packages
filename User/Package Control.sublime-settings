@@ -1,0 +1,51 @@
+{
+	"debug": true,
+	"git_binary": "/usr/local/bin/git",
+	"install_prereleases": true,
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Completions",
+		"CSScomb",
+		"DashDoc",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"ExpandRegion",
+		"FileDiffs",
+		"Git",
+		"Gutter Color",
+		"Hayaku - tools for writing CSS faster",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"jQuery",
+		"Markdown Extended",
+		"Material Color Scheme",
+		"Monokai Extended",
+		"More Layouts",
+		"Origami",
+		"Preferences Editor",
+		"ReadmePlease",
+		"Seti_UI",
+		"Seti_UX",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-ruby",
+		"Sublimerge Pro",
+		"Syntax Highlighting for Sass",
+		"TrailingSpaces",
+		"VimL",
+		"WordPress"
+	],
+	"openssl_binary": "/usr/local/bin/openssl",
+	"repositories":
+	[
+		"https://github.com/int3h/SublimeFixMacPath"
+	]
+}
