@@ -1,5 +1,5 @@
 {
-	"Seti_SB_big": true,
+	"Seti_SB_med": true,
 	"Seti_sb_big_padding": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 10,
@@ -23,9 +23,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Sublimerge Pro",
-		"AutoCompleteJS"
+		"AutoCompleteJS",
+		"Gutter Color",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
