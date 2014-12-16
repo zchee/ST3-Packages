@@ -23,10 +23,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Sublimerge Pro",
-		"AutoCompleteJS",
+		"Vintage",
 		"Gutter Color",
-		"Vintage"
+		"AutoCompleteJS"
 	],
 	"indent_guide_options":
 	[
