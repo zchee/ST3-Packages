@@ -1,0 +1,12 @@
+{
+    "compiler": "vanilla-executable",
+    "node_path": "/Users/Chee/.nodebrew/current/bin",
+    "coffee_path": "/Users/Chee/.nodebrew/current/bin"
+    "coffee_executable": "",
+    "bare": true,
+    "syntax_patterns": [
+          "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+          "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+          "Packages/Text/Plain text.tmLanguage"
+    ]
+}

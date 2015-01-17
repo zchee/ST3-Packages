@@ -1,3 +1,4 @@
 {
-  "disable_tab_abbreviations_for_scopes": "css,less,sass,scss,stylus"
+  "disable_tab_abbreviations_for_scopes": "css,less,sass,scss,stylus",
+  "show_css_completions": false
 }

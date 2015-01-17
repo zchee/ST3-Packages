@@ -7,6 +7,11 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+            "coffee": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "coffeelint": {
                 "@disable": false,
                 "args": [],
@@ -21,6 +26,13 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "scss": {
+                "@disable": false,
+                "args": [],
+                "exclude-linter": "",
+                "excludes": [],
+                "include-linter": ""
             }
         },
         "mark_style": "outline",
@@ -28,10 +40,7 @@
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [
-                "/Users/Chee/.nodebrew/current/bin",
-                "/Users/Chee/.rbenv/shims"
-            ],
+            "osx": [],
             "windows": []
         },
         "python_paths": {

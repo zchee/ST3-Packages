@@ -45,6 +45,7 @@
 		".gitignore_global",
 		"conf",
 		".antigenrc",
-		"antigen"
+		"antigen",
+		"zsh-theme"
 	]
 }

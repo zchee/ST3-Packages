@@ -6,4 +6,11 @@
   { "keys": ["ctrl+shift+g", "ctrl+shift+k"], "command": "gulp_kill" },
   { "keys": ["ctrl+shift+g", "ctrl+shift+i"], "command": "gulp", "args": { "task_name": "sass" } },
   { "keys": ["ctrl+shift+d"], "command": "dash_doc"},
+  { "keys": ["super+\\"], "command": "toggle_side_bar" },
+  // { "keys": ["super+shift+n"], "command": "side_bar_new_directory", "args": { "paths": []} },
+  // { "keys": ["super+shift+t"], "command": "side_bar_new_file" },
+  // { "keys": ["super+shift+r"], "command": "side_bar_rename" },
+  // { "keys": ["super+shift+d"], "command": "side_bar_delete" },
+  // { "keys": ["super+shift+m"], "command": "side_bar_move" },
+  // { "keys": ["super+ctrl+e"],  "command": "side_bar_open_in_browser" }
 ]
