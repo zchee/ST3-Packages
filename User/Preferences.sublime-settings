@@ -59,6 +59,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets": false,
+  "use_simple_full_screen": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": false,
 	"match_brackets_content": false,
