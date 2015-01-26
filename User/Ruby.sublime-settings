@@ -12,6 +12,7 @@
 		"Cheffile",
 		"Guardfile",
 		"lock",
-		"rb"
+		"rb",
+		".ec2ssh"
 	]
 }

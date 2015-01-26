@@ -1,16 +1,29 @@
 [
-  { "keys": ["ctrl+i"], "command": "reindent" , "args": { "single_line": false } },
-  { "keys": ["super+'"], "command": "expand_region" },
-  { "keys": ["alt+'"], "args": {"action": "remove_tag"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.remove_tag"}] },
-  { "keys": ["ctrl+shift+g", "ctrl+shift+u"], "command": "gulp", "args": { "task_name": "default" } },
-  { "keys": ["ctrl+shift+g", "ctrl+shift+k"], "command": "gulp_kill" },
-  { "keys": ["ctrl+shift+g", "ctrl+shift+i"], "command": "gulp", "args": { "task_name": "sass" } },
-  { "keys": ["ctrl+shift+d"], "command": "dash_doc"},
-  { "keys": ["super+\\"], "command": "toggle_side_bar" },
-  // { "keys": ["super+shift+n"], "command": "side_bar_new_directory", "args": { "paths": []} },
-  // { "keys": ["super+shift+t"], "command": "side_bar_new_file" },
-  // { "keys": ["super+shift+r"], "command": "side_bar_rename" },
-  // { "keys": ["super+shift+d"], "command": "side_bar_delete" },
-  // { "keys": ["super+shift+m"], "command": "side_bar_move" },
-  // { "keys": ["super+ctrl+e"],  "command": "side_bar_open_in_browser" }
+	{
+		"keys": ["alt+'"],
+		"command": "run_emmet_action", "args": {"action": "remove_tag"},
+		"context": [
+			{"key": "emmet_action_enabled.remove_tag"}
+		]
+	},
+	{
+		"keys": ["ctrl+i"],
+		"command": "reindent", "args": {"single_line": false}
+	},
+	{
+		"keys": ["super+shift+,"],
+		"command": "dash_doc"
+	},
+	{
+		"keys": ["super+'"],
+		"command": "expand_region"
+	},
+	{
+		"keys": ["super+\\"],
+		"command": "toggle_side_bar"
+	},
+  {
+    "keys": ["shift+alt+p"],
+    "command": "expand_selection_to_paragraph"
+  }
 ]

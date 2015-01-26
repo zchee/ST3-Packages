@@ -2,75 +2,76 @@
 	"Seti_SB_med": true,
 	"Seti_pad_5": true,
 	"Seti_rainbow": true,
-  "Seti_sb_big_padding": true,
-  "Seti_sb_tree_med": true,
+	"Seti_sb_big_padding": true,
+	"Seti_sb_tree_med": true,
 	"additional_path_items":
-  	[
-  		"~/.nodebrew/current/bin",
-  		"~/.rbenv/shims/"
-  	],
+	[
+		"~/.nodebrew/current/bin",
+		"~/.rbenv/shims/"
+	],
 	"auto_complete_commit_on_tab": true,
-	"auto_complete_delay": 10,
+	"auto_complete_delay": 20,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
 	"auto_complete_triggers":
-  	[
-  		{
-  			"characters": "qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
-  			"selector": "text, source, meta, string, punctuation, constant"
-  		}
-  	],
+	[
+		{
+			"characters": "qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+			"selector": "text, source, meta, string, punctuation, constant"
+		}
+	],
 	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"fold_buttons": false,
 	"folder_exclude_patterns":
-  	[
-  		".svn",
-  		".git",
-  		".hg",
-  		"CVS",
-  		"node_modules",
-  		".sass-cache",
-  		".idea",
-  		".tmp"
-  	],
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".sass-cache",
+		".idea",
+		".tmp"
+	],
 	"font_face": "Kibitaki",
 	"font_size": 14,
-	"gpu_window_buffer": true,
 	"hayaku_CSS_prefixes_disable": true,
 	"highlight_line": true,
 	"ignored_packages":
-  	[
-  		"CSS Extended Completions",
-  		"AutoCompleteJS",
-  		"Vintage",
-  		"CSS Completions",
-  		"HTML-CSS-JS Prettify",
-  		"Gutter Color",
-  		"JavaScript",
-  		"SCSS",
-  		"Emmet Css Snippets"
-  	],
+	[
+		"Autocomplete Javascript with Method Signature",
+		"Vintage",
+		"CSS Completions",
+		"SCSS",
+		"JavaScript",
+		"CSS Extended Completions",
+		"JavaScript Completions",
+		"Gutter Color",
+		"Emmet Css Snippets",
+		"JavaScriptFunctionDefinition"
+	],
 	"indent_guide_options":
-  	[
-  		"draw_active"
-  	],
+	[
+		"draw_active"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets": false,
-  "use_simple_full_screen": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": false,
 	"match_brackets_content": false,
 	"match_brackets_square": false,
 	"match_tags": false,
 	"overlay_scroll_bars": "enable",
-	"scroll_speed": 0,
+	"remember_full_screen": true,
+	"scroll_speed": 10,
 	"tab_size": 2,
 	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
 	"word_wrap": true,
 	"wrap_width": 120
 }
